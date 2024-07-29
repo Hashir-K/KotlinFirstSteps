@@ -14,19 +14,19 @@ fun main() {
 
     println("What power do you seek?")
     println("Magic? Sword? Shield?")
-    val name = readln()
+    val power = readln()
 
-    if(name.lowercase() == "magic")
+    if(power.lowercase() == "magic")
     {
-        println("$name is a powerful tool but dangerous")
+        println("$power is a powerful tool but dangerous")
     }
-    else if(name.lowercase() == "sword")
+    else if(power.lowercase() == "sword")
     {
-        println("$name is deadly but only if the user can wield it")
+        println("$power is deadly but only if the user can wield it")
     }
-    else if (name.lowercase() == "shield")
+    else if (power.lowercase() == "shield")
     {
-        println("the $name is a wise choice. The best defence is a good offence")
+        println("the $power is a wise choice. The best defence is a good offence")
     }
 
     println("You are the one who will open the door. Don't be afraid")
