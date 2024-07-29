@@ -11,7 +11,7 @@ fun main() {
 //        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
 //        println("i = $i")
 //    }
-
+    println("I have been waiting for you")
     println("What power do you seek?")
     println("Magic? Sword? Shield?")
     val power = readln()
